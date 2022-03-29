@@ -1,86 +1,85 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  #book-form {
-    display: none;
-    padding: 100px 35%;
-  }
-  
-  #container {
-    display: none;
-    padding: 100px;
-  }
-  
-  #book-list {
-    display: none;
-  }
-  
-  #contact {
-    display: none;
-    font-size: larger;
-    margin: 4% 37%;
-  }
-  
-  #contact h2 {
-    font-size: 2rem;
-    padding: 2rem;
-    font-weight: 350;
-    line-height: 1.5;
-  }
-  
-  #nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 2px solid #000;
-    margin: 10px 20px;
-  }
-  
-  #nav-branding {
-    padding: 15px 15px 0 15px;
-  }
-  
-  .li-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 25px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .nav-item {
-    padding: 15px 15px 0 15px;
-    border-left: 2px solid #000;
-    text-decoration: none;
-  }
-  
-  #list {
-    text-decoration: none;
-  }
-  
-  #date-time {
-    margin: 10px 20px;
-    float: right;
-    font-weight: 400;
-    font-size: larger;
-  }
-  
-  footer {
-    left: 0;
-    bottom: 10px;
-    position: fixed;
-    width: 100%;
-  }
-  
-  footer p {
-    border: 2px solid #000;
-    margin: 30px 20px 0 20px;
-    padding: 15px;
-    margin-top: 50px;
-    font-size: x-large;
-  }
-  
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#book-form {
+  display: none;
+  padding: 100px 35%;
+}
+
+#container {
+  display: none;
+  padding: 100px;
+}
+
+#book-list {
+  display: none;
+}
+
+#contact {
+  display: none;
+  font-size: larger;
+  margin: 4% 37%;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 350;
+  line-height: 1.5;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid #000;
+  margin: 10px 20px;
+}
+
+#nav-branding {
+  padding: 15px 15px 0 15px;
+}
+
+.li-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-item {
+  padding: 15px 15px 0 15px;
+  border-left: 2px solid #000;
+  text-decoration: none;
+}
+
+#list {
+  text-decoration: none;
+}
+
+#date-time {
+  margin: 10px 20px;
+  float: right;
+  font-weight: 400;
+  font-size: larger;
+}
+
+footer {
+  left: 0;
+  bottom: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+footer p {
+  border: 2px solid #000;
+  margin: 30px 20px 0 20px;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: x-large;
+}
