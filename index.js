@@ -1,3 +1,4 @@
+import { DateTime } from 'luxon';
 import Store from './modules/store.js';
 import Book from './modules/book.js';
 // UI Class: Hundle UI Tasks
@@ -58,4 +59,8 @@ document.getElementById('book-list').addEventListener('click', (e) => {
   UI.removeBook(e.target);
   // Remove book from Store
   Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('date-time').innerHTML = DateTime();
 });
