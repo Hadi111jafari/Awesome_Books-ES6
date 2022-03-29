@@ -64,3 +64,23 @@ document.getElementById('book-list').addEventListener('click', (e) => {
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('date-time').innerHTML = DateTime();
 });
+document.getElementById('list').addEventListener('click', () => {
+  document.getElementById('book-list').style.display = 'block';
+  document.getElementById('book-form').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+  document.getElementById('container').style.display = 'block';
+});
+
+document.getElementById('add').addEventListener('click', () => {
+  document.getElementById('book-list').style.display = 'none';
+  document.getElementById('book-form').style.display = 'block';
+  document.getElementById('contact').style.display = 'none';
+  document.getElementById('container').style.display = 'none';
+});
+
+document.getElementById('con').addEventListener('click', () => {
+  document.getElementById('book-list').style.display = 'none';
+  document.getElementById('book-form').style.display = 'none';
+  document.getElementById('contact').style.display = 'block';
+  document.getElementById('container').style.display = 'none';
+});
