@@ -6950,4 +6950,3 @@
  export {
    DateTime, Duration, FixedOffsetZone, IANAZone, Info, Interval, InvalidZone, Settings, SystemZone, VERSION, Zone,
  };
-console.log('somthing for test'); 
