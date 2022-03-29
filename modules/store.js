@@ -26,4 +26,5 @@ class Store {
     localStorage.setItem('books', JSON.stringify(books));
   }
 }
-export default { Store };
+export default Store;
+// console.log('something');

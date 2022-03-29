@@ -1,5 +1,5 @@
 {
-  "name": "Awesome_Books-ES6",
+  "name": "awesome_books-es6",
   "version": "1.0.0",
   "description": "In Awesome Books you can add books you can remove books. and the intend of building this project is to learn javacript ES6 better. and for adding functionality javascript arrow functions and ES6 syntax is used. ## Built With - html - css - Javascript",
   "main": "index.js",

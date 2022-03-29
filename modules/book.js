@@ -5,3 +5,4 @@ export default class Book {
     this.bookId = bookId;
   }
 }
+// console.log('store booke to');
