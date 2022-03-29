@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/yeti/bootstrap.min.css">
+    <title>Awesome Books</title>
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+      <header>
+          <nav id="nav">
+              <h2 id="nav-branding">Awesome Books</h2>
+                  <ul class="li-container">
+                      <li class="nav-item" id="list">List</li>
+                      <li class="nav-item" id="add">Add new</li>
+                      <li class="nav-item" id="con">Contact</li>
+                  </ul>
+          </nav>
+      </header>
+      <p id="date-time"></p>
+      <section id="container">
+        <div class="container mt-5">
+            <h1 class="display-5 text-center">All awesome books</h1>
+            <table class="table table-striped mt-5">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>book Id</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="book-list" class="text-center">
+                    <!-- Dynamics -->
+                </tbody>
+            </table>
+        </div>
+      </section>
+	  
+		<form id="book-form">
+			<h2 class="text-center mb-5">Add a new book</h2>
+			<div class="form-group">
+				<input type="text" id="title" class="form-control" placeholder="Title">
+			</div>
+			<div class="form-group">
+				<input type="text" id="author" class="form-control" placeholder="Author">
+			</div>
+			<div class="form-group">
+				<input type="text" id="bookId" class="form-control" placeholder="Book Id">
+			</div>
+			<button type="submit" class="btn btn-primary btn-block">Add Book</button>
+		</form>
+      <section id="contact">
+          <h2>Contact Information</h2>
+        <p>Do you have any questions or you just want to say "Hello" ? <br>
+        You can reach out to us! </p>
+        <ul>
+            <li>Our e-mail: something@gmail.com</li>
+            <li>Our phone number: 00937654329876</li>
+            <li>Our address: Streetname 22, 84503 City, country</li>
+        </ul>
+      </section>
+      <footer>
+          <p>Copyright ...</p>
+      </footer>
+  </body>
+</html>

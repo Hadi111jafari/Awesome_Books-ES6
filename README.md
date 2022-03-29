@@ -10,7 +10,7 @@ In Awesome Books you can add books you can remove books. and the intend of build
 ## Getting Started
 
 1. Click on repositories
-2. Choose repository "Portfolio" 
+2. Choose repository "Awesome_Books-ES6" 
 3. Then clone the repository to your local machine by using the following steps:
      1. From repository click on code button and copy clone cammand(Kindly make sure you choose SHH format)
      2. From your terminal type "git clone" command line
